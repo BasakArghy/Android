@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Contact"
+        android:id="@+id/txtAdd"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#fff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="#fff"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/editName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:background="#fff"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/editNumber"
+        android:inputType="text"
+        />
+
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:backgroundTint="#fff"
+        android:text="OK"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16dp"
+        android:id="@+id/btnOk"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UploadProflePic">
+
+
+    <ImageView
+
+        android:id="@+id/imgView"
+
+        android:layout_width="300dp"
+
+        android:layout_height="300dp" />
+    <!--Linear Layout with horizontal orientation
+
+        and other properties-->
+
+    <LinearLayout
+
+        android:id="@+id/layout_button"
+
+        android:orientation="horizontal"
+
+        android:layout_alignParentTop="true"
+
+        android:weightSum="2"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+
+        <!--Button for choosing image from gallery-->
+
+        <Button
+
+            android:id="@+id/btnChoose"
+            android:backgroundTint="#354DD5"
+            android:text="Choose"
+
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+            android:layout_marginRight="2dp"
+
+            android:layout_height="wrap_content" />
+
+
+
+        <!--Button for uploading image-->
+
+        <Button
+
+            android:id="@+id/btnUpload"
+            android:backgroundTint="#354DD5"
+            android:text="Upload"
+android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <!--Image View for showing image chosen from gallery-->
+
+
+
+</LinearLayout>
